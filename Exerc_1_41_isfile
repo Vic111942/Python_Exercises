@@ -1,0 +1,10 @@
+# Write a Python program to check whether a file exists
+import os.path
+folder_path = "C:\DUMP"
+file_name = "\org.py"
+file_path = folder_path + file_name
+print(file_path)
+print(os.path.isfile(file_path))
+print(os.path.isfile('main.py'))
+if os.path.isfile(file_path) :
+    print('Yes')
