@@ -1,0 +1,11 @@
+#  50 Write a Python program to print without newline or space.-
+for n in range(10) :
+    print(n, end = '*!*')
+my_lst = ['w', 'f', 'd', 'vt']
+for itm in my_lst :
+    print(itm)
+for itm in my_lst :
+    print(itm, end = '')
+print('\n')
+for itm in my_lst :
+    print(itm, end = '*') 
