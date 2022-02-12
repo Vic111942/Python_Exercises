@@ -1,0 +1,17 @@
+# 60. program to calculate the hypotenuse of a right angled triangles
+import math
+
+def my_trngl(s1, s2) :
+    hp = (s1**2 + s2**2)**0.5
+    ang1_ = math.asin(s1/hp)
+    ang1 = ang1_*180/math.pi
+    ang2 = 90 - ang1
+    ang_tl = 90 + ang1 + ang2
+    return [hp, ang1, ang2]
+
+
+s1 = 2.56
+s2 = 5.67
+print(my_trngl(s1, s2))
+my_vart = my_trngl(s1, s2)
+print(my_vart[0])   # print hp
