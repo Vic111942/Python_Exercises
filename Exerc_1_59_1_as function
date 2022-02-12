@@ -1,0 +1,10 @@
+def ht_f_cm(h_str) :
+    hf = int(h_str[0])
+    hi = int(h_str[2:4])
+    hs = (12*hf + hi) * 2.54
+    return hs
+    
+    
+my_str= input('Enter your height if f and in(2 dig) : ')
+
+print(ht_f_cm(my_str))
