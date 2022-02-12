@@ -1,0 +1,11 @@
+#  Write a Python program to determine if a Python shell is executing in 32bit or 64bit mode on OS
+# struct module
+# This module performs conversions between Python values and C structs represented as Python bytes objects
+# struct.calcsize(format)
+# Return the size of the struct (and hence of the bytes object produced by pack(format, ...)) 
+# https://docs.python.org/3/library/struct.html
+#           corresponding to the format string format.
+# For 32 bit it will return 32 and for 64 bit it will return 64
+import struct
+print(struct.calcsize("P") * 8)
+print(struct.calcsize("s") * 8)
