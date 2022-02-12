@@ -1,0 +1,10 @@
+# 48. Write a Python program to parse a string to Float or Integer
+# string numbers can be converter to float then float to int
+s_str = '234.567'
+f_str = float(s_str)
+print(f_str)
+i_str = int(f_str)
+print(i_str)
+s2_str = "5"
+i2_str = int(s2_str)
+print(i2_str)
