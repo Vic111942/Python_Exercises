@@ -1,0 +1,9 @@
+# 69 min and max functions
+# sort three integers without using conditional statements and loops
+my_1 = 4
+my_2 = 56
+my_3 = 3
+amax = max( my_1, my_2, my_3)
+amin = min( my_1, my_2, my_3)
+amid = (my_1 + my_2 + my_3) - amax - amin
+print(amax, amin, amid)
