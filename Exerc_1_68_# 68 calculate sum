@@ -1,0 +1,7 @@
+# 68 calculate the sum of the digits in an integer
+myint = 5245
+sd = str(myint)
+mysum = 0
+for ld in sd :
+    mysum += int(ld)
+print(mysum)
