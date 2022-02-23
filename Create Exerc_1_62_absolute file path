@@ -1,0 +1,9 @@
+# 61 Python program to get an absolute file path
+"""
+According to docs os.path.abspath() returns a normalized 
+absolutized version of the pathname path which may sound 
+fancy but it simply means that this method returns the pathname
+ to the path passed as a parameter to this function.
+"""
+import os
+print(os.path.abspath('path_fname'))
