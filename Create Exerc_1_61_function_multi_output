@@ -1,0 +1,10 @@
+# Program to convert the distance (in feet) to inches, yards, and miles.
+def conv(fl) :
+    il = fl*12
+    yl = fl/3
+    ml = fl/5280
+    return il, yl, ml
+
+flg = 24
+intr = conv(flg)
+print(intr[0])
