@@ -1,0 +1,21 @@
+
+import os
+
+f = open("C:\dell\ert.txt")
+fr = open(r"C:\dell\code_Ert.txt", "w+")
+fr.write('\n')
+# print(f.read())
+print('--------')
+print(f.read(1))
+for line in f :
+    print(line)
+    for chrt in line:
+        # print(chrt)
+        if chrt == "f" :
+            chrt = "a"
+        if chrt == "a" :
+            chrt = "f"
+        if chrt == ' ' :
+            chrt = ','
+        print(chrt)
+        fr.write(chrt)   
