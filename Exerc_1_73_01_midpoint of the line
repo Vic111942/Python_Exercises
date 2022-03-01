@@ -1,0 +1,6 @@
+# 73 Calculate midpoints of a line
+pt_1 = [2,3]  # x1, y1
+pt_2 = [4,9]  # x2, y2
+x_mdl = pt_1[0] + (pt_2[0] - pt_1[0])/2
+y_mdl = pt_1[1] + (pt_2[1] - pt_1[1])/2
+print(x_mdl, ' ', y_mdl)
